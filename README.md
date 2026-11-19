@@ -1,4 +1,6 @@
-# Citizen Assist AI (projeto Global Solutions)
+# GS2 - Prompt e Inteligência Atrificial
+
+# Citizen Assist AI
 Integrantes: 
 
 · João Victor Canello Ferian (RM 573295) 
