@@ -1,8 +1,8 @@
 """Cliente do modelo local (Ollama) via LangChain. Importado só quando usado."""
 from __future__ import annotations
 
-MODELO_AGENTE = "qwen2.5:7b"   # bom em português e em seguir instruções; roda em CPU/GPU modesta
-MODELO_JUIZ = "llama3.1:8b"    # modelo DIFERENTE do agente, para o juiz não "se avaliar"
+MODELO_AGENTE = "gemma4:12b"   # bom em português e em seguir instruções; roda em CPU/GPU modesta
+MODELO_JUIZ = "qwen3.8:27b"    # modelo DIFERENTE do agente, para o juiz não "se avaliar"
 
 
 class OllamaLLM:
