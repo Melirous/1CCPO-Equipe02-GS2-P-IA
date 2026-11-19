@@ -1,13 +1,5 @@
-# GS2 - Prompt e Inteligência Atrificial
-
-# Citizen Assist AI
-Integrantes: 
-
-· João Victor Canello Ferian (RM 573295) 
-
-· João Pedro Costenari (RM 572260) 
-
-· Gustavo Melo dos Santos (RM 573562)
+# Citizen Assist AI (projeto Global Solutions)
+Integrantes: João Victor Canello Ferian (RM 573295) · João Pedro Costenari (RM 572260) · Gustavo Melo dos Santos (RM 573562)
 
 ## Rodar
 ```
