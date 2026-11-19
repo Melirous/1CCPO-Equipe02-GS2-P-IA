@@ -1,4 +1,3 @@
-"""Uso só com teclado: python app_cli.py  (digite 'sair' para encerrar). Nada é gravado."""
 import sys
 from citizen_assist import Agente
 from citizen_assist.llm import OllamaLLM
