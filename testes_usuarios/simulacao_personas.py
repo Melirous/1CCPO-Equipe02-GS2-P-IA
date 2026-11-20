@@ -1,6 +1,3 @@
-"""SIMULAÇÃO (não são testes com usuários): 5 personas fictícias formulam as 3 tarefas do seu jeito.
-Roda o agente e confere se a resposta traz o fato esperado. NÃO gera tempo nem nota de facilidade
-e NÃO deve ser colocada no CSV nem no relatório como se fosse teste real."""
 import re, sys
 from citizen_assist import Agente
 from citizen_assist.fichas import norm
