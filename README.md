@@ -3,15 +3,10 @@
 Assistente educacional que orienta sobre documentos e serviços da **fictícia
 Central do Cidadão de Aurora**, com LangGraph, fichas locais e avaliação por LLM.
 
-Integrantes: 
+Equipe: João Victor Canello Ferian (RM 573295), João Pedro Costenari (RM 572260)
+e Gustavo Melo dos Santos (RM 573562).
 
-João Victor Canello Ferian (RM 573295)
-
-João Pedro Costenari (RM 572260)
-
-Gustavo Melo dos Santos (RM 573562)
-
-> AVISO: As fichas e os valores são fictícios. O assistente não é um canal oficial,
+> ⚠️ As fichas e os valores são fictícios. O assistente não é um canal oficial,
 > não consulta cadastros e não agenda atendimentos.
 
 ## Estrutura
@@ -23,7 +18,7 @@ Gustavo Melo dos Santos (RM 573562)
 - `resultados_v1_llm.csv`, `resultados_v2_llm.csv`: avaliação dos 26 casos com Qwen e juiz Llama.
 - `resultados_personas_llm.csv`: simulação das cinco personas (15 tarefas) com o agente v2.
 - `tests/`: testes determinísticos de segurança e comportamento.
-- `testes_usuarios/`: espaço reservado para testes com participantes humanos; não há dados inventados.
+- `testes_usuarios/testes_usuarios.csv`: 5 participantes (P1–P5), com tempos e notas de satisfação informados pelo grupo.
 - `docs/RELATORIO.md`: metodologia, avaliação real dos LLMs e limitações.
 
 ![Arquitetura](docs/arquitetura.png)
@@ -47,6 +42,11 @@ esperado. Esses registros **não são testes com participantes humanos**.
 O veredito `acerto` considera conjuntamente juiz e regras; por isso, uma
 resposta pode receber `veredito_juiz=correto` e mesmo assim ser reprovada
 por uma regra objetiva. Consulte o [relatório detalhado](docs/RELATORIO.md).
+
+**Teste com cinco participantes:** 15 tempos
+de tarefa registrados, média geral de **41,3 segundos por tarefa** e média das
+25 notas Q1–Q5 de **4,80/5**. A conclusão independente de cada tarefa não foi
+registrada; por isso não há uma taxa de sucesso humano calculada.
 
 ## 2. Instalação e testes de regressão
 
@@ -110,10 +110,16 @@ substituir os dados publicados.
 
 ## 4. Testes com usuários e privacidade
 
+A simulação com cinco personas **não substitui entrevistas ou testes reais**.
+A latência da API não é tempo de conclusão de uma tarefa por uma pessoa.
+Os testes com cinco participantes identificados por códigos P1–P5 estão
+registrados em `testes_usuarios/testes_usuarios.csv`, com tempos (`tarefa1_seg`,
+`tarefa2_seg`, `tarefa3_seg`) e notas de 1 a 5 (`q1` até `q5`). Os registros
+não contêm nomes ou outros identificadores pessoais.
+
 Credenciais não devem ser incluídas no código, em prints ou em commits.
 O notebook usa exclusivamente os Secrets do Colab. Dados pessoais detectados
-nas respostas são mascarados nos resultados exportados. Antes de concluir
-o trabalho, conferir manualmente cinco respostas do juiz LLM.
+nas respostas são mascarados nos resultados exportados.
 
 ## 5. Limitações
 
