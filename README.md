@@ -30,7 +30,7 @@ Gustavo Melo dos Santos (RM 573562)
 
 ## 1. Resultados reais com LLMs
 
-Dados obtidos na execução de **20/11/2026 (UTC)**: agente `qwen2.5:7b`,
+Dados obtidos na execução de: agente `qwen2.5:7b`,
 juiz independente `llama3.1:8b`, Ollama `/api/chat` via ngrok HTTPS,
 temperatura 0, LangGraph, com checagens complementares por regra.
 
