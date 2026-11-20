@@ -1,4 +1,4 @@
-persona_ficticia,tarefa,pergunta,fato_esperado_encontrado,latencia_pipeline_seg,rota,origem,fontes,resposta
+usuario,tarefa,pergunta,fato_esperado_encontrado,latencia_pipeline_seg,rota,origem,fontes,resposta
 "P1",RG - documentos,docs 2 via rg,True,86.59,escopo,llm,FC-01,"Para a segunda via da carteira de identidade (RG), você precisará dos seguintes documentos:
 
 1. Certidão de nascimento ou de casamento (original ou cópia autenticada).
