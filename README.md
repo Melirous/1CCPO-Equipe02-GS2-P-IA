@@ -11,9 +11,6 @@ João Pedro Costenari (RM 572260)
 
 Gustavo Melo dos Santos (RM 573562)
 
-> ⚠️ As fichas e os valores são fictícios. O assistente não é um canal oficial,
-> não consulta cadastros e não agenda atendimentos.
-
 ## Estrutura
 
 - `citizen_assist/`: agente LangGraph, busca por fichas, guardrails, juiz e golden.
