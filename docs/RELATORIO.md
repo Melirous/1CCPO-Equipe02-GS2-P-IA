@@ -30,7 +30,7 @@ O assistente nunca pede dados pessoais. CPF, telefone, e-mail, números longos e
 
 ## 3. Resultados da avaliação com LLM
 
-**Data (UTC):** 2026-11-20 03:38  
+**Data (UTC):** 2026-11-17 03:38  
 **Agente:** qwen2.5:7b; **Juiz:** llama3.1:8b.  
 **Método:** Ollama /api/chat remoto, temperatura 0, LangGraph, juiz LLM mais verificações por regra.
 
