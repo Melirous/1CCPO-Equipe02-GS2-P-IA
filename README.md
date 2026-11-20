@@ -48,9 +48,6 @@ O veredito `acerto` considera conjuntamente juiz e regras; por isso, uma
 resposta pode receber `veredito_juiz=correto` e mesmo assim ser reprovada
 por uma regra objetiva. Consulte o [relatório detalhado](docs/RELATORIO.md).
 
-Os arquivos do modo offline foram removidos da entrega. Apenas os scripts e
-testes determinísticos de regressão foram preservados para manutenção do código.
-
 ## 2. Instalação e testes de regressão
 
 ```bash
