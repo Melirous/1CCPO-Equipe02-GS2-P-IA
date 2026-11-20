@@ -1,5 +1,5 @@
 persona_ficticia,tarefa,pergunta,fato_esperado_encontrado,latencia_pipeline_seg,rota,origem,fontes,resposta
-"P-A (jovem, escreve curto)",RG - documentos,docs 2 via rg,True,86.59,escopo,llm,FC-01,"Para a segunda via da carteira de identidade (RG), você precisará dos seguintes documentos:
+"P1",RG - documentos,docs 2 via rg,True,86.59,escopo,llm,FC-01,"Para a segunda via da carteira de identidade (RG), você precisará dos seguintes documentos:
 
 1. Certidão de nascimento ou de casamento (original ou cópia autenticada).
 2. Comprovante de residência dos últimos 90 dias.
@@ -11,12 +11,12 @@ persona_ficticia,tarefa,pergunta,fato_esperado_encontrado,latencia_pipeline_seg,
 Fonte: FC-01 (verificada em 01/10/2026)
 
 Aviso: sou um protótipo educacional, não um canal oficial. Confirme a informação no site do órgão competente. As fichas usadas são material didático fictício."
-"P-A (jovem, escreve curto)",Título - gratuidade,titulo eleitor paga?,True,18.01,escopo,llm,FC-03,"Não, o título de eleitor é gratuito para a primeira via, segunda via e transferência. [FC-03]
+"P1",Título - gratuidade,titulo eleitor paga?,True,18.01,escopo,llm,FC-03,"Não, o título de eleitor é gratuito para a primeira via, segunda via e transferência. [FC-03]
 
 Fonte: FC-03 (verificada em 01/10/2026)
 
 Aviso: sou um protótipo educacional, não um canal oficial. Confirme a informação no site do órgão competente. As fichas usadas são material didático fictício."
-"P-A (jovem, escreve curto)",CNH - validade aos 55,cnh 55 anos vale quanto,True,20.03,escopo,extrativo,FC-06,"Segundo as fichas:
+"P1",CNH - validade aos 55,cnh 55 anos vale quanto,True,20.03,escopo,extrativo,FC-06,"Segundo as fichas:
 
 Validade da CNH renovada [FC-06]:
 - até 49 anos: 10 anos;
@@ -26,7 +26,7 @@ Validade da CNH renovada [FC-06]:
 Fonte: FC-06 (verificada em 01/10/2026)
 
 Aviso: sou um protótipo educacional, não um canal oficial. Confirme a informação no site do órgão competente. As fichas usadas são material didático fictício."
-P-B (linguagem formal),RG - documentos,Bom dia. Quais documentos devo levar para tirar a segunda via da minha identidade?,True,31.98,escopo,llm,FC-01,"Para tirar a segunda via da sua identidade, leve os seguintes documentos:
+P2,RG - documentos,Bom dia. Quais documentos devo levar para tirar a segunda via da minha identidade?,True,31.98,escopo,llm,FC-01,"Para tirar a segunda via da sua identidade, leve os seguintes documentos:
 
 1. Certidão de nascimento ou de casamento (original ou cópia autenticada).
 2. Comprovante de residência dos últimos 90 dias.
@@ -37,17 +37,17 @@ P-B (linguagem formal),RG - documentos,Bom dia. Quais documentos devo levar para
 Fonte: FC-01 (verificada em 01/10/2026)
 
 Aviso: sou um protótipo educacional, não um canal oficial. Confirme a informação no site do órgão competente. As fichas usadas são material didático fictício."
-P-B (linguagem formal),Título - gratuidade,Preciso pagar alguma taxa para o título de eleitor?,True,14.36,escopo,llm,FC-03,"Não, o título de eleitor é gratuito. As taxas se aplicam apenas para segunda via e transferência. [FC-03]
+P2,Título - gratuidade,Preciso pagar alguma taxa para o título de eleitor?,True,14.36,escopo,llm,FC-03,"Não, o título de eleitor é gratuito. As taxas se aplicam apenas para segunda via e transferência. [FC-03]
 
 Fonte: FC-03 (verificada em 01/10/2026)
 
 Aviso: sou um protótipo educacional, não um canal oficial. Confirme a informação no site do órgão competente. As fichas usadas são material didático fictício."
-P-B (linguagem formal),CNH - validade aos 55,Tenho 55 anos. Por quanto tempo será válida a minha carteira de motorista renovada?,True,15.83,escopo,llm,FC-06,"Sua carteira de motorista renovada será válida por 5 anos, pois você tem entre 50 a 69 anos. [FC-06]
+P2,CNH - validade aos 55,Tenho 55 anos. Por quanto tempo será válida a minha carteira de motorista renovada?,True,15.83,escopo,llm,FC-06,"Sua carteira de motorista renovada será válida por 5 anos, pois você tem entre 50 a 69 anos. [FC-06]
 
 Fonte: FC-06 (verificada em 01/10/2026)
 
 Aviso: sou um protótipo educacional, não um canal oficial. Confirme a informação no site do órgão competente. As fichas usadas são material didático fictício."
-"P-C (apressado, com erros)",RG - documentos,o q precisa pra segunda via do rg,True,58.63,escopo,llm,FC-01,"Para a segunda via do RG, você precisa dos seguintes documentos:
+"P3",RG - documentos,o q precisa pra segunda via do rg,True,58.63,escopo,llm,FC-01,"Para a segunda via do RG, você precisa dos seguintes documentos:
 
 1. Certidão de nascimento ou de casamento (original ou cópia autenticada).
 2. Comprovante de residência dos últimos 90 dias.
@@ -59,17 +59,17 @@ Lembre-se de comparecer ao Posto de Identificação de Aurora com esses document
 Fonte: FC-01 (verificada em 01/10/2026)
 
 Aviso: sou um protótipo educacional, não um canal oficial. Confirme a informação no site do órgão competente. As fichas usadas são material didático fictício."
-"P-C (apressado, com erros)",Título - gratuidade,titulo de eleitor cobra taxa,True,14.18,escopo,llm,FC-03,"Não cobra taxa. A primeira via, segunda via e transferência do título de eleitor são gratuitas. [FC-03]
+"P3",Título - gratuidade,titulo de eleitor cobra taxa,True,14.18,escopo,llm,FC-03,"Não cobra taxa. A primeira via, segunda via e transferência do título de eleitor são gratuitas. [FC-03]
 
 Fonte: FC-03 (verificada em 01/10/2026)
 
 Aviso: sou um protótipo educacional, não um canal oficial. Confirme a informação no site do órgão competente. As fichas usadas são material didático fictício."
-"P-C (apressado, com erros)",CNH - validade aos 55,renovei a cnh aos 55 qnto tempo dura a validade,True,15.61,escopo,llm,FC-06,"A validade da CNH renovada para pessoas com 50 a 69 anos é de 5 anos. [FC-06]
+"P3",CNH - validade aos 55,renovei a cnh aos 55 qnto tempo dura a validade,True,15.61,escopo,llm,FC-06,"A validade da CNH renovada para pessoas com 50 a 69 anos é de 5 anos. [FC-06]
 
 Fonte: FC-06 (verificada em 01/10/2026)
 
 Aviso: sou um protótipo educacional, não um canal oficial. Confirme a informação no site do órgão competente. As fichas usadas são material didático fictício."
-P-D (usa menu/números),RG - documentos,1,True,0.0,categoria,regra,FC-01,"Carteira de Identidade (RG): primeira e segunda via
+P4,RG - documentos,1,True,0.0,categoria,regra,FC-01,"Carteira de Identidade (RG): primeira e segunda via
 
 Quem pode pedir [FC-01]: qualquer pessoa. Menores de 12 anos devem ir acompanhados de um responsável legal, com documento original com foto.
 
@@ -95,7 +95,7 @@ Onde [FC-01]: Posto de Identificação de Aurora.
 Fonte: FC-01 (verificada em 01/10/2026)
 
 Aviso: sou um protótipo educacional, não um canal oficial. Confirme a informação no site do órgão competente. As fichas usadas são material didático fictício."
-P-D (usa menu/números),Título - gratuidade,3,True,0.0,categoria,regra,FC-03,"Título de eleitor
+P4,Título - gratuidade,3,True,0.0,categoria,regra,FC-03,"Título de eleitor
 
 Quem deve ter [FC-03]: o voto é obrigatório de 18 a 69 anos. É facultativo para quem tem 16 ou 17 anos e para maiores de 70 anos.
 
@@ -117,7 +117,7 @@ Passo a passo [FC-03]:
 Fonte: FC-03 (verificada em 01/10/2026)
 
 Aviso: sou um protótipo educacional, não um canal oficial. Confirme a informação no site do órgão competente. As fichas usadas são material didático fictício."
-P-D (usa menu/números),CNH - validade aos 55,6,True,0.0,categoria,regra,FC-06,"CNH: renovação
+P4,CNH - validade aos 55,6,True,0.0,categoria,regra,FC-06,"CNH: renovação
 
 Custo [FC-06]: a taxa de renovação é de R$ 180,00. O exame médico é pago à parte, na clínica credenciada.
 
@@ -146,17 +146,17 @@ Validade da CNH renovada [FC-06]:
 Fonte: FC-06 (verificada em 01/10/2026)
 
 Aviso: sou um protótipo educacional, não um canal oficial. Confirme a informação no site do órgão competente. As fichas usadas são material didático fictício."
-P-E (pergunta ampla),RG - documentos,"Perdi minha identidade, o que eu faço?",False,22.96,escopo,llm,FC-01,"Você deve comparecer ao Posto de Identificação de Aurora com a declaração de extravio assinada no balcão. Não é necessário apresentar o boletim de ocorrência neste caso. [FC-01]
+P5,RG - documentos,"Perdi minha identidade, o que eu faço?",False,22.96,escopo,llm,FC-01,"Você deve comparecer ao Posto de Identificação de Aurora com a declaração de extravio assinada no balcão. Não é necessário apresentar o boletim de ocorrência neste caso. [FC-01]
 
 Fonte: FC-01 (verificada em 01/10/2026)
 
 Aviso: sou um protótipo educacional, não um canal oficial. Confirme a informação no site do órgão competente. As fichas usadas são material didático fictício."
-P-E (pergunta ampla),Título - gratuidade,Votar custa alguma coisa?,True,17.17,escopo,llm,FC-03,"Não, votar não custa nada. O título de eleitor é gratuito, incluindo a primeira via, segunda via e transferência. [FC-03]
+P5,Título - gratuidade,Votar custa alguma coisa?,True,17.17,escopo,llm,FC-03,"Não, votar não custa nada. O título de eleitor é gratuito, incluindo a primeira via, segunda via e transferência. [FC-03]
 
 Fonte: FC-03 (verificada em 01/10/2026)
 
 Aviso: sou um protótipo educacional, não um canal oficial. Confirme a informação no site do órgão competente. As fichas usadas são material didático fictício."
-P-E (pergunta ampla),CNH - validade aos 55,"Até quando vale a habilitação depois de renovar, se eu tenho 55 anos?",True,14.65,escopo,extrativo,FC-06,"Segundo as fichas:
+P5,CNH - validade aos 55,"Até quando vale a habilitação depois de renovar, se eu tenho 55 anos?",True,14.65,escopo,extrativo,FC-06,"Segundo as fichas:
 
 Prazo [FC-06]: a nova CNH fica pronta em 7 dias úteis após a aprovação no exame médico.
 
