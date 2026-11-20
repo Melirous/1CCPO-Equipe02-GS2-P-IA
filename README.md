@@ -6,7 +6,7 @@ Central do Cidadão de Aurora**, com LangGraph, fichas locais e avaliação por 
 Equipe: João Victor Canello Ferian (RM 573295), João Pedro Costenari (RM 572260)
 e Gustavo Melo dos Santos (RM 573562).
 
-> ⚠️ As fichas e os valores são fictícios. O assistente não é um canal oficial,
+> AVISO: As fichas e os valores são fictícios. O assistente não é um canal oficial,
 > não consulta cadastros e não agenda atendimentos.
 
 ## Estrutura
