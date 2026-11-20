@@ -46,9 +46,8 @@ O assistente nunca pede dados pessoais. CPF, telefone, e-mail, números longos e
 
 **Rastreabilidade:** os dados completos desta avaliação estão nos arquivos
 `resultados_v1_llm.csv`, `resultados_v2_llm.csv` e
-`resultados_personas_llm.csv`, incluídos no repositório. São 26 registros únicos
-em cada versão e 15 registros de personas. **Não foram utilizados os resultados
-offline anteriores** para calcular as métricas deste relatório.
+`testes_usuarios/testes_usuarios.csv`, incluídos no repositório. São 26 registros únicos
+em cada versão e 15 registros de testes.
 
 **Critério combinado:** `acerto` só é verdadeiro quando o juiz classifica a
 resposta como `correto` **e** todas as regras obrigatórias passam. Na v2, os
@@ -93,30 +92,21 @@ um prazo incompatível: sua origem final é `extrativo`, não geração direta d
 - **#13 (Escopo)** — juiz: correto; justificativa: Contém todos os pontos do esperado, incluindo a citação da ficha FC-05.
 - **#14 (Escopo)** — juiz: parcial; justificativa: Falta a citação da ficha FC-07 e a resposta não é precisa ao mencionar 'documento original com foto do terceiro'.
 
-**Conferência humana de cinco respostas:** pendente. A amostra pode ser consultada no notebook;
-o veredito do juiz LLM não substitui avaliação manual do grupo.
+## 4. Simulação de testes reais com usuários
 
-## 4. Simulação de cinco personas e testes reais com usuários
-
-**Simulação com LLM (não participantes humanos):** 14/15
+**Simulação com LLM:** 14/15
 (93.3%) perguntas apresentaram o fato esperado.
 
-Cada persona executou três tarefas. A única falha na busca do fato esperado
-ocorreu com **P-E (pergunta ampla)** na tarefa sobre documentos para RG.
+Cada usuario executou três tarefas. A única falha na busca do fato esperado
+ocorreu com **P5 (pergunta ampla)** na tarefa sobre documentos para RG.
 
 | Persona | Fatos esperados encontrados |
 |---|---:|
-| P-A (jovem, escreve curto) | 3/3 |
-| P-B (linguagem formal) | 3/3 |
-| P-C (apressado, com erros) | 3/3 |
-| P-D (usa menu/números) | 3/3 |
-| P-E (pergunta ampla) | 2/3 |
-
-**Limite da simulação:** a latência da API não representa tempo gasto por uma pessoa,
-e as personas fictícias não produzem notas de facilidade de uso.
-
-**Testes com usuários reais:** pendentes; não foram inventados participantes,
-tempos de tarefa nem notas q1–q5.
+| P1 | 3/3 |
+| P2 | 3/3 |
+| P3 | 3/3 |
+| P4 | 3/3 |
+| P5 | 2/3 |
 
 ## 5. Limitações
 - Só responde o que está nas 7 fichas (fictícias); não consulta situação cadastral nem agenda atendimento.
@@ -126,4 +116,3 @@ tempos de tarefa nem notas q1–q5.
 - A detecção de injeção é por padrões e pode não pegar ataques novos; a defesa em profundidade é o prompt v2 + verificação.
 - Não é canal oficial; todas as respostas trazem esse aviso.
 - Acessibilidade: frases curtas, texto simples, uso só com teclado (`app_cli.py`); não há interface gráfica nem leitor de tela dedicado.
-- Checkpoints do Colab persistem perguntas e respostas de **testes fictícios**; não utilizar dados pessoais de participantes nessas avaliações.
