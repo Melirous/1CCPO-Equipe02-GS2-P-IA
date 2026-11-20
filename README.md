@@ -110,13 +110,6 @@ substituir os dados publicados.
 
 ## 4. Testes com usuários e privacidade
 
-A simulação com cinco personas **não substitui entrevistas ou testes reais**.
-A latência da API não é tempo de conclusão de uma tarefa por uma pessoa.
-Se o grupo realizar testes humanos, crie
-`testes_usuarios/testes_usuarios.csv` apenas com observações reais, sem nomes
-nem dados pessoais. Os campos esperados pelo notebook são `tarefa1_seg`,
-`tarefa2_seg`, `tarefa3_seg` e `q1` até `q5`.
-
 Credenciais não devem ser incluídas no código, em prints ou em commits.
 O notebook usa exclusivamente os Secrets do Colab. Dados pessoais detectados
 nas respostas são mascarados nos resultados exportados. Antes de concluir
@@ -128,4 +121,3 @@ o trabalho, conferir manualmente cinco respostas do juiz LLM.
 - A seleção por palavras-chave pode falhar com sinônimos raros.
 - Os guardrails são regras, não uma garantia contra todo tipo de ataque.
 - Sem um túnel autenticado e modelos disponíveis, a avaliação real não roda.
-- Publicar arquivos no GitHub requer acesso autorizado ao repositório.
