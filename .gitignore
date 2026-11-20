@@ -1,0 +1,20 @@
+# Ambientes e arquivos temporários
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+.pytest_cache/
+
+# Configuração privada: nunca versionar credenciais
+.env
+.env.*
+!.env.example
+secrets.json
+credentials.json
+
+# Resultados de execução: revisar os dados antes de compartilhar
+resultados_*_llm.csv
+Citizen_Assist_AI_resultados_LLM.zip
+docs/RELATORIO_LLM.md
+resultados_execucao/

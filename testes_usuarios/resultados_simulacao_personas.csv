@@ -1,0 +1,16 @@
+participante_simulado,tarefa,mensagem,resultado,fato_esperado_encontrado,rota,fontes
+"P-A (jovem, escreve curto)",T1 - documentos para segunda via do RG,docs 2 via rg,OK,True,escopo,"FC-01, FC-07"
+"P-A (jovem, escreve curto)",T2 - gratuidade do título de eleitor,titulo eleitor paga?,OK,True,escopo,FC-03
+"P-A (jovem, escreve curto)",T3 - validade da CNH aos 55 anos,cnh 55 anos vale quanto,OK,True,escopo,FC-06
+P-B (linguagem formal),T1 - documentos para segunda via do RG,Bom dia. Quais documentos devo levar para tirar a segunda via da minha identidade?,OK,True,escopo,"FC-01, FC-07"
+P-B (linguagem formal),T2 - gratuidade do título de eleitor,Preciso pagar alguma taxa para o título de eleitor?,OK,True,escopo,"FC-03, FC-07"
+P-B (linguagem formal),T3 - validade da CNH aos 55 anos,Tenho 55 anos. Por quanto tempo será válida a minha carteira de motorista renovada?,OK,True,escopo,FC-06
+"P-C (apressado, com erros)",T1 - documentos para segunda via do RG,o q precisa pra segunda via do rg,OK,True,escopo,"FC-01, FC-07"
+"P-C (apressado, com erros)",T2 - gratuidade do título de eleitor,titulo de eleitor cobra taxa,OK,True,escopo,FC-03
+"P-C (apressado, com erros)",T3 - validade da CNH aos 55 anos,renovei a cnh aos 55 qnto tempo dura a validade,OK,True,escopo,FC-06
+P-D (usa menu/números),T1 - documentos para segunda via do RG,1,OK,True,categoria,FC-01
+P-D (usa menu/números),T2 - gratuidade do título de eleitor,3,OK,True,categoria,FC-03
+P-D (usa menu/números),T3 - validade da CNH aos 55 anos,6,OK,True,categoria,FC-06
+P-E (pergunta ampla),T1 - documentos para segunda via do RG,"Perdi minha identidade, o que eu faço?",OK,True,escopo,"FC-01, FC-07"
+P-E (pergunta ampla),T2 - gratuidade do título de eleitor,Votar custa alguma coisa?,OK,True,escopo,FC-03
+P-E (pergunta ampla),T3 - validade da CNH aos 55 anos,"Até quando vale a habilitação depois de renovar, se eu tenho 55 anos?",OK,True,escopo,FC-06
