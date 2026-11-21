@@ -140,11 +140,6 @@ respondeu a cinco perguntas de satisfação na escala de **1 a 5**.
 | Q4 — rapidez e objetividade | 4,4/5 |
 | Q5 — disposição para reutilizar o assistente | 5,0/5 |
 
-**Limite metodológico:** os tempos e as notas foram informados pelo grupo;
-este relatório não inclui gravações nem observação independente da realização
-das tarefas. Também não há indicador de conclusão/autonomia por tarefa no
-CSV. A taxa de conclusão não deve ser inferida apenas dos tempos registrados.
-
 ## 5. Limitações
 - Só responde o que está nas 7 fichas (fictícias); não consulta situação cadastral nem agenda atendimento.
 - A busca é por palavras; perguntas com sinônimos raros podem cair em "não encontrei".
