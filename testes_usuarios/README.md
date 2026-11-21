@@ -1,7 +1,7 @@
 # Testes com participantes humanos
 
 O arquivo `testes_usuarios.csv` contém os registros de **cinco participantes**
-(P1 a P5) fornecidos pelo grupo: três tempos de tarefa, em segundos, e cinco
+(P1 a P5): três tempos de tarefa, em segundos, e cinco
 notas de satisfação (`q1` a `q5`), na escala de 1 a 5.
 
 - Tempo médio por tarefa (15 medições): **41,3 s**.
